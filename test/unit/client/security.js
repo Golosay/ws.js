@@ -5,8 +5,7 @@ var fs = require('fs')
   , sec = require('../../../lib/handlers/client/security/security.js')
   , assert = require('assert')
   , utils = require('../../../lib/utils.js')
-  , dateFormat = require('dateformat')
-  , xml_assert = require('../../utils/xml-assert.js')
+  , xml_assert = require('../../utils/xml-assert.js');
 
 module.exports = {
 

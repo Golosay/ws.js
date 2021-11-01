@@ -5,7 +5,6 @@ var fs = require('fs')
   , sec = require('../../../lib/handlers/client/security/security.js')
   , assert = require('assert')
   , utils = require('../../../lib/utils.js')
-  , dateFormat = require('dateformat')
   , xml_assert = require('../../utils/xml-assert.js')
   , X509BinarySecurityToken = ws.X509BinarySecurityToken
   , select = require('../../../lib/xpath').SelectNodes
